@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    padding: 100px;
+    box-sizing: border-box;
+    box-shadow: 14px 25px 15px #495057;
+}
+
+.brand-logo {
+    background-image: url('../image/ss.png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.sign {
+    color: rgb(14, 182, 238);
+}
+
+.input, label, button {
+    display: flex;
+}
+
+label {
+    color: rgb(14, 182, 238);
+    margin-bottom: 15px;
+}
+
+input {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(14, 182, 238);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    justify-content: center;
+}

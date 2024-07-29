@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Login</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <h1>SignUp</h1>
+    <form onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <span id="nameError" class="error"></span>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        <span id="emailError" class="error"></span>
+        
+        <label for="password">Password:</label>
+        <input type="password" minlength="8" id="password">
+        <span id="passwordError" class="error"></span>
+        
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" minlength="8" id="confirmPassword">
+        <span id="confirmPasswordError" class="error"></span>
+        
+        <input type="submit" value="SignUp">
+    </form>
+    
+    <script src="../Jss/script.js"></script>
+</body>
+</html>
